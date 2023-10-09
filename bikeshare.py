@@ -88,8 +88,7 @@ def time_stats(df):
     highest_dow = df['day_of_week'].mode()[0]
     print('Most common day of the week: ', highest_dow)
 
-    # display the most common start hour
-    # extract hour from Start Time
+    # Extracts hour from Start Time and displays the most common start hour
     df['hour'] = df['Start Time'].dt.hour
     highest_hour = df['hour'].mode()[0]
     print('Most common hour: ', highest_hour)
