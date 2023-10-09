@@ -58,7 +58,7 @@ def load_data(city, month, day):
     # load data for specified city
     df = pd.read_csv(CITY_DATA[city])
 
-    # convert Start Time coloumn to datetime
+    # convert Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     
     # extract month and day of week from Start Time
