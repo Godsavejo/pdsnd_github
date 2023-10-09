@@ -15,3 +15,5 @@ This project uses Python to get meaningful insights from a bike share systems da
     + https://github.com/junolee
 - [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
 
+### Link for downloading data files
+- You can download the .csv data files used for this project [here](https://drive.google.com/file/d/1mhO8kpZNWIhdbjrds17TiTubOSVsnCgE/view?usp=sharing) 
